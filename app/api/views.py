@@ -1,6 +1,6 @@
 from flask import request, jsonify, Blueprint
-from .models import Secret
-from .utils import acquire_lock, release_lock, exponential_backoff
+from app.models import Secret
+from app.utils import acquire_lock, release_lock, exponential_backoff
 import re
 
 bp = Blueprint('secrets', __name__)

@@ -1,6 +1,7 @@
 from sqlalchemy.dialects.postgresql import UUID
 from uuid import uuid4
 import json
+from flask_sqlalchemy import SQLAlchemy
 
 # Initialize SQLAlchemy
 db = SQLAlchemy()

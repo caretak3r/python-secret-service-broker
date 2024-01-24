@@ -1,5 +1,6 @@
 from app import app, models
 from flask import json
+import unittest
 
 class TestSecretsAPI(unittest.TestCase):
 
